@@ -16,8 +16,15 @@
 			<div class="row-tab">
 
 				<div id="name">
-					<label for="first">* Name:</label>
-					<input type="text" name="first" required placeholder="Enter your name">
+
+					<div class="labels">
+						<label for="first">* Name:</label>
+					</div>
+
+					<div class="rightTab">
+						<input type="text" name="first" required placeholder="Enter your name">
+					</div>
+
 				</div>
 
 			</div>	
@@ -26,9 +33,17 @@
 			<div class="row-tab">
 
 				<div id="email">
-					<label for="e">* Email:</label>
-					<input type="email" name="e" required placeholder="Enter your Email">
-				</div>	
+
+					<div class="labels">
+						<label for="e">* Email:</label>
+					</div>
+
+					<div class="rightTab">
+						<input type="email" name="e" required placeholder="Enter your Email">
+					</div>
+
+				</div>
+
 			</div>	
 
 				<br>
@@ -36,8 +51,15 @@
 			<div class="row-tab">
 
 				<div id="age">
-					<label for="age">* Age:</label>
-					<input type="number" name="age" required placeholder="Age" min="1" max="110">
+
+					<div class="labels">
+						<label for="age">* Age:</label>
+					</div>	
+
+					<div class="rightTab">
+						<input type="number" name="age" required placeholder="Age" min="1" max="110">
+					</div>
+
 				</div>
 
 			</div>	
@@ -47,15 +69,22 @@
 			<div class="row-tab">
 
 				<div id="current-role">
-					<label for="role">Which option best describes your current role?</label>
-					<select>
-						<option disabled>Select an option</option>
-						<option>Student</option>
-						<option>Full Time Job</option>
-						<option>Full Time Learner</option>
-						<option>Prefer Not to Say</option>
-						<option>Other</option>
-					</select>
+
+					<div class="labels">
+						<label for="role">Which option best describes your current role?</label>
+					</div>	
+
+					<div class="rightTab">
+						<select>
+							<option disabled>Select an option</option>
+							<option>Student</option>
+							<option>Full Time Job</option>
+							<option>Full Time Learner</option>
+							<option>Prefer Not to Say</option>
+							<option>Other</option>
+						</select>
+					</div>
+
 				</div>
 
 			</div>	
@@ -65,11 +94,12 @@
 			<div class="row-tab">
 
 				<div id="reco">
-					<div>
+
+					<div class="labels">
 						<label>How likely is that you would recommend freeCodeCamp to a friend?</label>
 					</div>
 
-					<div>
+					<div class="rightTab">
 						<input type="radio" name="reco" value="definitely">Definitely<br>
 						<input type="radio" name="reco" value="maybe">Maybe<br>
 						<input type="radio" name="reco" value="not sure">Not sure<br>
@@ -84,14 +114,20 @@
 			<div class="row-tab">
 
 				<div>
-					<label>What do you like most in FCC:</label>
-					<select>
-						<option selected="true" disabled>Select an option</option>
-						<option>Challenges</option>
-						<option>Projects</option>
-						<option>Community</option>
-						<option>Open Source</option>
-					</select>
+
+					<div class="labels">
+						<label>What do you like most in FCC:</label>
+					</div>
+					
+					<div class="rightTab">
+						<select>
+							<option selected="true" disabled>Select an option</option>
+							<option>Challenges</option>
+							<option>Projects</option>
+							<option>Community</option>
+							<option>Open Source</option>
+						</select>
+					</div>
 				</div>
 
 			</div>
@@ -101,18 +137,25 @@
 			<div class="row-tab">
 
 				<div id="improvements">
-					<label>Things that should be improved in the future (Check all that apply):</label>
-					<input type="checkbox" name="checks" value="front end">Front-end Projects<br>
-					<input type="checkbox" name="checks" value="back end">Back-end Projects<br>
-					<input type="checkbox" name="checks" value="data visualization">Data Visualization<br>
-					<input type="checkbox" name="checks" value="challenges">Challenges<br>
-					<input type="checkbox" name="checks" value="open source community">Open Source Community<br>
-					<input type="checkbox" name="checks" value="gitter help rooms">Gitter help rooms<br>
-					<input type="checkbox" name="checks" value="videos">Videos<br>
-					<input type="checkbox" name="checks" value="city meetups">City Meetups<br>
-					<input type="checkbox" name="checks" value="wiki">Wiki<br>
-					<input type="checkbox" name="checks" value="forum">Forum<br>
-					<input type="checkbox" name="checks" value="additional courses">Additional Courses
+
+					<div class="labels">
+						<label>Things that should be improved in the future (Check all that apply):</label>
+					</div>	
+
+					<div class="rightTab">
+						<input type="checkbox" name="checks" value="front end">Front-end Projects<br>
+						<input type="checkbox" name="checks" value="back end">Back-end Projects<br>
+						<input type="checkbox" name="checks" value="data visualization">Data Visualization<br>
+						<input type="checkbox" name="checks" value="challenges">Challenges<br>
+						<input type="checkbox" name="checks" value="open source community">Open Source Community<br>
+						<input type="checkbox" name="checks" value="gitter help rooms">Gitter help rooms<br>
+						<input type="checkbox" name="checks" value="videos">Videos<br>
+						<input type="checkbox" name="checks" value="city meetups">City Meetups<br>
+						<input type="checkbox" name="checks" value="wiki">Wiki<br>
+						<input type="checkbox" name="checks" value="forum">Forum<br>
+						<input type="checkbox" name="checks" value="additional courses">Additional Courses
+					</div>
+
 				</div>
 
 			</div>
@@ -122,8 +165,15 @@
 			<div class="row-tab">
 
 				<div id="suggestions">
-					<label>Any Comments or Suggestions?</label>
-					<textarea placeholder="Enter your comment here..."></textarea>
+
+					<div class="labels">
+						<label>Any Comments or Suggestions?</label>
+					</div>
+
+					<div class="rightTab">
+						<textarea placeholder="Enter your comment here..."></textarea>
+					</div>
+
 				</div>
 
 			</div>
