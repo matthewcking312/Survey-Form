@@ -1,8 +1,36 @@
+html {
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 body {
     background-color: #a9d7d1;
     text-align: center;
     font-family: 'Raleway', Helvetica, sans-serif;
     min-width: 320px;
+    display: block;
+}
+
+#main-div {
+	background-color: #fafafa;
+	margin: 0 auto;
+	border-radius: 4px;
+	width: 75%;
+	max-width: 900px;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+form {
+	display: block;
+}
+
+@media (max-width: 830px) {
+	html {
+	    font-size: 14px;
+	}
 }
 
 div {
@@ -16,12 +44,6 @@ h1 {
 
 #title {
 	font-weight: 400;
-}
-
-#main-div {
-	background-color: #FAFAFA;
-	margin: 20px 20px; 
-	padding: 20px 20px;
 }
 
 .labels {
